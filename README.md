@@ -1,5 +1,4 @@
-# <img src=hello.png width=50%/>
-
+<img src=hello.png width=50%/>
 
 My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree in Computer Science at Public University of Navarre (UPNA), located in Pamplona, Spain.\~
 
@@ -77,7 +76,7 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 - **Shell**, **Bash**, Familiar&Learning
 - **Git**, Familiar
 - **VSCode**, Familiar
-- 
+
 <!-- .slide -->
 
 ## Languages
@@ -85,3 +84,11 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 * **Spanish**, **French**, **Basque**, Native
 * **English**, B2
 * **Japanese**, Basics
+
+<!-- .slide -->
+
+### Thank you! 
+
+I'll continue working (9｀･ω･)9
+
+![working](https://i.pinimg.com/originals/01/32/31/01323190cd6933de96287a5804fd636a.gif)
