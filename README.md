@@ -4,33 +4,13 @@
 
 <!-- .slide vertical=true -->
 
+<img src="images/working2.gif" style="width: 50vw" />
+
 ## Who am I?
 
 My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree in Computer Science at Public University of Navarre (UPNA), located in Pamplona, Spain.\~
 
-<!-- .slide -->
 
-## Contact
-
-- Address
-  - **Universidad Pública de Navarra, Campus Arrosadía, Pamplona**
-- Site
-  - **<https://maizabros.github.io>**
-- [Resume](https://maizabros.github.io/resume/resume.pdf)
-
-<!-- .slide vertical=true -->
-
-- Phone
-  - **+34 663681917**
-- Telegram
-  - [@maizabros](https://t.me/maizabros)
-
-- WeChat
-  - Maizabros
-
-- E-mail:
-  - Personal: **[adrian.maiza@gmail.com](mailto:adrian.maiza@gmail.com)**
-  - Profesional: **[maiza.115667@e.unavarra.es](mailto:maiza.115667@e.unavarra.es)**
 
 <!-- .slide -->
 
@@ -97,7 +77,30 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 
 <!-- .slide -->
 
+<img src="images/contact.gif" style="width: 50vw" />
 
+## Contact
+
+- Address
+  - **Universidad Pública de Navarra, Campus Arrosadía, Pamplona**
+- Site
+  - **<https://maizabros.github.io>**
+  - **<https://github.com/maizabros>**
+- [**Resume (CV)**](https://maizabros.github.io/resume/resume.pdf) <i class="fa-solid fa-file-user"></i>
+
+<!-- .slide vertical=true -->
+
+- Phone
+  - **+34 663681917**
+- Telegram
+  - [@maizabros](https://t.me/maizabros)
+- WeChat
+  - Maizabros
+- E-mail:
+  - Personal: **[adrian.maiza@gmail.com](mailto:adrian.maiza@gmail.com)**
+  - Profesional: **[maiza.115667@e.unavarra.es](mailto:maiza.115667@e.unavarra.es)**
+
+<!-- .slide -->
 
 <p class=heather2>Thank you! </p>
 
