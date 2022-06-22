@@ -24,7 +24,7 @@ defaults:
         comments: 
           append: |
             <script
-              repo="wu-kan/utterances-storage"
+              repo="maizabros/utterance-storage"
               src="https://utteranc.es/client.js"
               issue-term="url"
               theme="github-light"
@@ -94,6 +94,8 @@ defaults:
                 ></script>
             jekyll-toc: 
               enable: true
+              min_level: 2 # default: 1
+              max_level: 2 # default: 6
               prepend: | 
                 <style>
                   #toc {
@@ -392,6 +394,7 @@ defaults:
               <style>
                 h1, h2, h3, h4, h5, h6 {
                   margin: 2rem 0rem 1rem 0rem;
+                  color: var(--theme-base-color);
                 }
               </style>
             - | 
@@ -605,6 +608,11 @@ defaults:
               }
               .slides {
                 margin-left: 2%
+              }
+              .thanks{
+                  font-size: 3ch;
+                  font-weight: 400;
+                  color: var(--theme-base-color);
               }
               .reveal a,
               .reveal a:hover,

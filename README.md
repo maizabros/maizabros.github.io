@@ -1,4 +1,10 @@
-<img src=hello.png width=50%/>
+
+
+![hello](hello.png)
+
+<!-- .slide vertical=true -->
+
+## Who am I?
 
 My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree in Computer Science at Public University of Navarre (UPNA), located in Pamplona, Spain.\~
 
@@ -7,7 +13,7 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 ## Contact
 
 - Address
-  - **Universidad Pública de Navarra, Capus Arrosadía, Pamplona**
+  - **Universidad Pública de Navarra, Campus Arrosadía, Pamplona**
 - Site
   - **<https://maizabros.github.io>**
 - [Resume](https://maizabros.github.io/resume/resume.pdf)
@@ -65,9 +71,9 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 <!-- .slide vertical=true -->
 ### AI
 * **Machine Learning**, Familiar&Learning
-  * **Deep Learning**, Familiar&Learning
-    * **GANs**, Familiar&Learning
-    * **CNNs**,**RNNs**,**ResNETs**, Familiar&Learning
+* **Deep Learning**, Familiar&Learning
+  * **GANs**, Familiar&Learning
+  * **CNNs**,**RNNs**,**ResNETs**, Familiar&Learning
 
 <!-- .slide vertical=true -->
 ### Various
