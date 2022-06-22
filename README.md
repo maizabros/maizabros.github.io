@@ -47,7 +47,7 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 ## Skills
 
 <!-- .slide vertical=true -->
-
+### Programming Languages
 - **C**, Familiar
 - **Java**, Familiar
 - **Python**, Familiar
@@ -56,7 +56,7 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 - **Matlab**, Familiar&Learning
 
 <!-- .slide vertical=true -->
-
+### WEB
 - **PHP**, Familiar&Learning
 - **SQL** (MySQL, SQLServer, OracleSQL), Familiar&Learning
 - **HTML**, Familiar
@@ -64,19 +64,21 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 - **JS/AngularJS**, Familiar
 
 <!-- .slide vertical=true -->
-
+### AI
 * **Machine Learning**, Familiar&Learning
   * **Deep Learning**, Familiar&Learning
     * **GANs**, Familiar&Learning
     * **CNNs**,**RNNs**,**ResNETs**, Familiar&Learning
 
 <!-- .slide vertical=true -->
-
+### Various
 - **Markdown**, Familiar
 - **$\LaTeX$**, Familiar
 - **Shell**, **Bash**, Familiar&Learning
 - **Git**, Familiar
 - **VSCode**, Familiar
+- 
+<!-- .slide -->
 
 ## Languages
 
