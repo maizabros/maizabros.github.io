@@ -10,7 +10,7 @@ description: |
     <i class="fa-brands fa-github"></i>
   </a>
   <a class=cust-icon href="https://linkedin.com/in/adrianmaiza">
-    <i class="fa-solid fa-linkedin"></i>
+    <i class="fa-brands fa-linkedin"></i>
   </a>
   <br/>
 url: https://maizabros.github.io 
@@ -218,7 +218,7 @@ defaults:
                     document.getElementById("run_time_hour"),
                     document.getElementById("run_time_minute"),
                     document.getElementById("run_time_second"),
-                    "22/06/2022 12:30:05")
+                    "06/22/2022 12:30:05")
                   </script>
                 </div>
               - | 
@@ -325,7 +325,6 @@ defaults:
                 img {
                   display: inline-block;
                   margin: 0;
-                  border-radius: 256px;
                 }
               </style>
             - | 
@@ -594,11 +593,18 @@ defaults:
               href="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.3.1/dist/reveal.min.css,npm/reveal.js@4.3.1/dist/theme/serif.min.css"
             />
             <style>
+              .sidebar::-webkit-scrollbar {
+                display: none;
+              }
               .sidebar {
                 line-height: 1.5;
+                overflow: auto;
               }
               .reveal .slides {
                 text-align: left;
+              }
+              .slides {
+                margin-left: 2%
               }
               .reveal a,
               .reveal a:hover,

@@ -87,7 +87,9 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 
 <!-- .slide -->
 
-### Thank you! 
+
+
+<p class=thanks>Thank you! </p>
 
 I'll continue working (9｀･ω･)9
 
