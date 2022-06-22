@@ -145,9 +145,6 @@ defaults:
                     display: none;
                     transition: all 0.5s ease-in-out
                   }
-                  .effect-info:hover{
-                    display: block;
-                  }
                   .effect-img {
                     z-index: 11;
                     width: 100%;
@@ -163,12 +160,15 @@ defaults:
                     transform-origin: 0% 50%;
                   }
                   .effect-right_to_left:hover .effect-img {
-                    transform: rotate3d(0, 1, 0, -180deg);
+                    transform: rotate3d(1, 0, 0, -180deg);
+                  }
+                  .effect-right_to_left:hover .effect-info{
+                    display: block;
                   }
                   .cust_icon:hover{
                     text-decoration: none;
                   }
-                  .cust_inco:hover i{
+                  .cust_icon:hover i{
                     transform: scale(1.5);
                   }
                 </style>
