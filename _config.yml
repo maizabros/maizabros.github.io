@@ -608,6 +608,11 @@ defaults:
                 padding-left: 32px !important;
                 padding-right: 32px !important;
               }
+              
+              .slides>section {
+                  width: calc(100% - 64px) !important;
+              }
+              
               h1, h2, h3, h4, h5, h6 {
                   margin: 2rem 0rem 1rem 0rem;
                   color: var(--theme-base-color) !important;
