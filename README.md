@@ -1,6 +1,6 @@
 
 
-![hello](hello.png)
+![hello](images/hello.png)
 
 <!-- .slide vertical=true -->
 
