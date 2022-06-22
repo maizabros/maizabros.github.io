@@ -583,7 +583,7 @@ defaults:
             - key: data-separator-vertical 
               value: <!-- .slide vertical=true -->
             - key: data-background-color
-              value: "#fefefe"
+              value: "#fdfdfd"
           prepend: |
             <link
               rel="stylesheet"
@@ -600,7 +600,7 @@ defaults:
               .reveal .slides {
                 text-align: left;
               }
-              .reveal img{
+              .reveal img.abs{
                   max-width: none;
                   max-height: none;
               }

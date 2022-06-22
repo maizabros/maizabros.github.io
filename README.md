@@ -103,7 +103,7 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 
 I'll continue working (9｀･ω･)9
 
-<img src="https://i.pinimg.com/originals/01/32/31/01323190cd6933de96287a5804fd636a.gif" alt="working" style="
+<img class=abs src="images/working.gif" alt="working" style="
     position: absolute;
     top: calc(35vh - 100%);
     width: 100%;
