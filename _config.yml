@@ -600,6 +600,10 @@ defaults:
               .reveal .slides {
                 text-align: left;
               }
+              .reveal img{
+                  max-width: none;
+                  max-height: none;
+              }
               .slides {
                 margin-left: 2% !important;
               }
