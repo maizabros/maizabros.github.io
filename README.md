@@ -4,7 +4,7 @@
 
 <!-- .slide vertical=true -->
 
-<img src="images/working2.gif" style="width: 50vw" />
+<img src="images/working2.gif" style="margin: 0 8em;top: 8em;position: absolute;z-index: -1;">
 
 ## Who am I?
 
@@ -27,9 +27,15 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 
 <!-- .slide -->
 
-## Skills
+<h2 id="skills" style="
+    position: absolute;
+    top: 2em;
+">Skills</h2>
+
+<img src="images/skills.gif" style="margin: 0px 4em;top: 0em;/* width: 50vw; */position: relative;z-index: -1;">
 
 <!-- .slide vertical=true -->
+
 <p class=heather2>Programming Languages</p>
 
 - **C**, Familiar
@@ -75,9 +81,17 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 * **English**, B2
 * **Japanese**, Basics
 
+<img src="images/communication.gif" style="
+    position: absolute;
+    z-index: -1;
+    left: 10em;
+    top: 4.5em;
+    border-radius: 4em 2em 4em 1em;
+">
+
 <!-- .slide -->
 
-<img src="images/contact.gif" style="width: 50vw" />
+<img src="images/contact.gif" style="/* width: 50vh; */position: absolute;top: -50%;left: 25%;z-index: -1;">
 
 ## Contact
 
@@ -86,7 +100,9 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 - Site
   - **<https://maizabros.github.io>**
   - **<https://github.com/maizabros>**
-- [**Resume (CV)**](https://maizabros.github.io/resume/resume.pdf) <i class="fa-solid fa-file-user"></i>
+- [**Resume (CV)**](https://maizabros.github.io/resume/resume.pdf) <i class="fa-solid fa-file" style="
+      color: var(--theme-base-color);
+  "></i>
 
 <!-- .slide vertical=true -->
 
