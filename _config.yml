@@ -94,8 +94,6 @@ defaults:
                 ></script>
             jekyll-toc: 
               enable: true
-              min_level: 2 # default: 1
-              max_level: 2 # default: 6
               prepend: | 
                 <style>
                   #toc {
@@ -146,9 +144,6 @@ defaults:
                     transform-style: preserve-3d;
                     filter: opacity(0);
                     transition: all 0.5s ease-in-out
-                  }
-                  h1{
-                    display: none;
                   }
                   .effect-img {
                     z-index: 11;
@@ -394,7 +389,7 @@ defaults:
               <style>
                 h1, h2, h3, h4, h5, h6 {
                   margin: 2rem 0rem 1rem 0rem;
-                  color: var(--theme-base-color);
+                  color: var(--theme-base-color) !important;
                 }
               </style>
             - | 
@@ -589,7 +584,7 @@ defaults:
             - key: data-separator-vertical 
               value: <!-- .slide vertical=true -->
             - key: data-background-color
-              value: "White"
+              value: "#fbfbfb"
           prepend: |
             <link
               rel="stylesheet"
@@ -609,8 +604,8 @@ defaults:
               .slides {
                 margin-left: 2%
               }
-              .thanks{
-                  font-size: 3ch;
+              .heather2{
+                  font-size: 4ch;
                   font-weight: 400;
                   color: var(--theme-base-color);
               }
