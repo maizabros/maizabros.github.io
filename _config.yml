@@ -583,7 +583,7 @@ defaults:
             - key: data-separator-vertical 
               value: <!-- .slide vertical=true -->
             - key: data-background-color
-              value: "#fbfbfb"
+              value: "#fefefe"
           prepend: |
             <link
               rel="stylesheet"
@@ -601,14 +601,14 @@ defaults:
                 text-align: left;
               }
               .slides {
-                margin-left: 2%
+                margin-left: 2% !important;
               }
               h1, h2, h3, h4, h5, h6 {
                   margin: 2rem 0rem 1rem 0rem;
                   color: var(--theme-base-color) !important;
               }
               .heather2{
-                  font-size: 4ch;
+                  font-size: 3ch;
                   font-weight: 400;
                   color: var(--theme-base-color);
               }
