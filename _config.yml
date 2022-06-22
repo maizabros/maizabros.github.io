@@ -389,7 +389,6 @@ defaults:
               <style>
                 h1, h2, h3, h4, h5, h6 {
                   margin: 2rem 0rem 1rem 0rem;
-                  color: var(--theme-base-color) !important;
                 }
               </style>
             - | 
@@ -603,6 +602,10 @@ defaults:
               }
               .slides {
                 margin-left: 2%
+              }
+              h1, h2, h3, h4, h5, h6 {
+                  margin: 2rem 0rem 1rem 0rem;
+                  color: var(--theme-base-color) !important;
               }
               .heather2{
                   font-size: 4ch;

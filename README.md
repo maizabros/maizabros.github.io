@@ -36,8 +36,6 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 
 ## Projects
 
-<!-- .slide vertical=true -->
-
 * [**[Traffic Signal recognition]**](https://github.com/maizabros/TrafficSignals) --> Computer Vision course project.
 * [**[Generating faces using GANs for expression recognition models]**]() --> Bachelor's thesis (WIP / Not available). 
 
@@ -52,16 +50,19 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 ## Skills
 
 <!-- .slide vertical=true -->
-<p class=heather2 Programming Languages></p>
+<p class=heather2>Programming Languages</p>
+
 - **C**, Familiar
 - **Java**, Familiar
 - **Python**, Familiar
-  - **CUDA**, Familiar&Learning
+  - **CUDA**,Learning
 - **C#**, Familiar&Learning
 - **Matlab**, Familiar&Learning
 
 <!-- .slide vertical=true -->
-<p class=heather2 WEB></p>
+
+<p class=heather2>WEB</p>
+
 - **PHP**, Familiar&Learning
 - **SQL** (MySQL, SQLServer, OracleSQL), Familiar&Learning
 - **HTML**, Familiar
@@ -69,14 +70,17 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 - **JS/AngularJS**, Familiar
 
 <!-- .slide vertical=true -->
-<p class=heather2 AI</p>
+<p class=heather2>AI</p>
+
 * **Machine Learning**, Familiar&Learning
 * **Deep Learning**, Familiar&Learning
   * **GANs**, Familiar&Learning
   * **CNNs**,**RNNs**,**ResNETs**, Familiar&Learning
 
 <!-- .slide vertical=true -->
-<p class=heather2 Various</p>
+
+<p class=heather2>Various</p>
+
 - **Markdown**, Familiar
 - **$\LaTeX$**, Familiar
 - **Shell**, **Bash**, Familiar&Learning
@@ -95,7 +99,7 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 
 
 
-<p class=thanks>Thank you! </p>
+<p class=heather2>Thank you! </p>
 
 I'll continue working (9｀･ω･)9
 
