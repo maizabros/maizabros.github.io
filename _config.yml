@@ -605,7 +605,7 @@ defaults:
                   max-height: none;
               }
               .slides {
-                margin-left: 2% !important;
+                padding-left: 32px !important;
               }
               h1, h2, h3, h4, h5, h6 {
                   margin: 2rem 0rem 1rem 0rem;
