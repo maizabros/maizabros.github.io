@@ -556,7 +556,7 @@ defaults:
                 var multilingual = false;
                 var branding = false;
                 var title = "Buy me a coffee";
-                var subtitle = "We need coffee for " + myname + " to keep working<br>ヾ(。￣□￣)ﾂ<br><img width=\"10%\" src=\"images/coffee.gif\">";
+                var subtitle = "We need coffee for " + myname + " to keep working<br>ヾ(。￣□￣)ﾂ<br><img src=\"../images/coffee.gif\" style=\"height: 15vh;\">";
                 var gravatar_url = "https://s.gravatar.com/avatar/362118c353bd5a6db9064ae294401c07?s=380";
               </script>
             - |
