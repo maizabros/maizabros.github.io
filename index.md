@@ -1,14 +1,10 @@
----
-title: Home
-permalink: /home
----
 ![hello](images/hello.png)
 
 <!-- .slide vertical=true -->
 
-<img src="images/working2.gif" style="margin: 0 8em;top: 8em;position: absolute;z-index: -1;">
+<img src="images/working2.gif" style="margin: 0 8em;top: 8.5em;position: absolute;z-index: -1;">
 
-## Who am I?
+# Who am I?
 
 My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree in Computer Science at Public University of Navarre (UPNA), located in Pamplona, Spain.\~
 
