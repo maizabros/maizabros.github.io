@@ -632,11 +632,9 @@ defaults:
                 float: right;
                 color: var(--theme-base-color);
               }
-              .slides > section > ul {
-                width: 90%;
-              }
+              .slides > section > ul
               .slides > section > section > ul {
-                width: 85%;
+                width: 90%;
               }
             </style>
           append: |
@@ -680,8 +678,7 @@ readme_index:
   with_frontmatter: true 
 
 webmaster_verifications: 
-  google: YIKi1rBnyUaS-DMYiluseI5kZzTwjCkTFmKkSkMZDJk
-  baidu: szbTSfUGAB
+  google: LtfCTgOur1CQN8yBNu75lMVdf8GwpuAxYgBxfwpT-FU
 
 permalink: pretty
 
