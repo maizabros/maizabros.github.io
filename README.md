@@ -38,48 +38,128 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 
 <p class=heather2>Programming Languages</p>
 
-- **C**, Familiar
-- **Java**, Familiar
-- **Python**, Familiar
-  - **CUDA**,Learning
-- **C#**, Familiar&Learning
-- **Matlab**, Familiar&Learning
+- **C**<span class="right-span">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+  </span>
+- **Java**<span class="right-span">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-regular fa-star"></i>
+    </span>
+- **Python**<span class="right-span">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star-half-stroke"></i>
+    </span>
+  - **CUDA**<span class="right-span">
+    <i class="fa-solid fa-star-half-stroke"></i>
+    <i class="fa-regular fa-star"></i>
+    <i class="fa-regular fa-star"></i>
+      </span>
+- **C#**<span class="right-span">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star-half-stroke"></i>
+    <i class="fa-regular fa-star"></i>
+    </span>
+- **Matlab**<span class="right-span">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star-half-stroke"></i>
+    <i class="fa-regular fa-star"></i>
+    </span>
 
 <!-- .slide vertical=true -->
 
 <p class=heather2>WEB</p>
 
-- **PHP**, Familiar&Learning
-- **SQL** (MySQL, SQLServer, OracleSQL), Familiar&Learning
-- **HTML**, Familiar
-- **CSS**/**Bootstrap**, Familiar
-- **JS/AngularJS**, Familiar
+- **PHP**<span class="right-span">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-regular fa-star"></i>
+    </span>
+- **SQL** (MySQL, SQLServer, OracleSQL)<span class="right-span">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star-half-stroke"></i>
+    </span>
+- **HTML**<span class="right-span">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star-half-stroke"></i>
+    </span>
+- **CSS**/**Bootstrap**<span class="right-span">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star-half-stroke"></i>
+    </span>
+- **JS/AngularJS**<span class="right-span">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-regular fa-star"></i>
+    </span>
 
 <!-- .slide vertical=true -->
 <p class=heather2>AI</p>
 
-* **Machine Learning**, Familiar&Learning
-* **Deep Learning**, Familiar&Learning
-  * **GANs**, Familiar&Learning
-  * **CNNs**,**RNNs**,**ResNETs**, Familiar&Learning
+* **Machine Learning**<span class="right-span">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star-half-stroke"></i>
+    </span>
+* **Deep Learning**<span class="right-span">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-regular fa-star"></i>
+    </span>
+  * **GANs**<span class="right-span">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-regular fa-star"></i>
+      </span>
+  * **CNNs**,**RNNs**,**ResNETs**<span class="right-span">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-regular fa-star"></i>
+      </span>
 
 <!-- .slide vertical=true -->
 
 <p class=heather2>Various</p>
 
-- **Markdown**, Familiar
-- **$\LaTeX$**, Familiar
-- **Shell**, **Bash**, Familiar&Learning
-- **Git**, Familiar
-- **VSCode**, Familiar
+- **Markdown**<span class="right-span">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-regular fa-star"></i>
+    </span>
+- **$\LaTeX$**<span class="right-span">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-regular fa-star"></i>
+    </span>
+- **Shell**, **Bash**<span class="right-span">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star-half-stroke"></i>
+    <i class="fa-regular fa-star"></i>
+    </span>
+- **Git**<span class="right-span">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star-half-stroke"></i>
+    <i class="fa-regular fa-star"></i>
+    </span>
+- **VSCode**<span class="right-span">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star-half-stroke"></i>
+    </span>
 
 <!-- .slide -->
 
 ## Languages
 
-* **Spanish**, **French**, **Basque**, Native
-* **English**, B2
-* **Japanese**, Basics
+* **Spanish**, **French**, **Basque**<span class="right-span">Native</span>
+* **English**<span class="right-span">B2</span>
+* **Japanese**<span class="right-span">Basics</span>
 
 <img src="images/communication.gif" style="
     position: absolute;

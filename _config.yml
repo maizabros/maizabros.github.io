@@ -628,6 +628,10 @@ defaults:
                 color: inherit;
                 border-bottom: 1px solid var(--theme-base-color);
               }
+              .right-span{
+                float: right;
+                color: var(--theme-base-color);
+              }
             </style>
           append: |
             <script
