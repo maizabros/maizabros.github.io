@@ -1,4 +1,4 @@
-<h1 style="position: absolute; display: none;">Home</h1>
+<h1 style="position: absolute; filter: opacity(0); color: white;">Home</h1>
 
 ![hello](images/hello.png)
 
