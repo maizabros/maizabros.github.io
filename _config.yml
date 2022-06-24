@@ -632,6 +632,9 @@ defaults:
                 float: right;
                 color: var(--theme-base-color);
               }
+              .slides > section > ul {
+                width: 85%;
+              }
             </style>
           append: |
             <script

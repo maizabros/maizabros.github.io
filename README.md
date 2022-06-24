@@ -78,7 +78,7 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
     <i class="fa-solid fa-star"></i>
     <i class="fa-regular fa-star"></i>
     </span>
-- **SQL** (MySQL, SQLServer, OracleSQL)<span class="right-span">
+- **SQL**<span class="right-span">
     <i class="fa-solid fa-star"></i>
     <i class="fa-solid fa-star"></i>
     <i class="fa-solid fa-star-half-stroke"></i>
@@ -161,13 +161,7 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 * **English**<span class="right-span">B2</span>
 * **Japanese**<span class="right-span">Basics</span>
 
-<img src="images/communication.gif" style="
-    position: absolute;
-    z-index: -1;
-    left: 10em;
-    top: 4.5em;
-    border-radius: 4em 2em 4em 1em;
-">
+<img src="images/communication.gif" style="position: absolute;z-index: -1;left: 7em;top: 7.5em;border-radius: 3em 2em 4em 1em;">
 
 <!-- .slide -->
 
