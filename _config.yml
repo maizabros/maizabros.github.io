@@ -632,7 +632,7 @@ defaults:
                 float: right;
                 color: var(--theme-base-color);
               }
-              .slides > section > ul
+              .slides > section > ul,
               .slides > section > section > ul {
                 width: 90%;
               }

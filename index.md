@@ -1,3 +1,7 @@
+---
+title: Home
+permalink: /
+---
 ![hello](images/hello.png)
 
 <!-- .slide vertical=true -->
