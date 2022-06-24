@@ -1,6 +1,6 @@
 ---
 title: Home
-permalink: /
+permalink: /home
 ---
 ![hello](images/hello.png)
 
@@ -159,11 +159,13 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 
 ## Languages
 
-* **Spanish**, **French**, **Basque**<span class="right-span">Native</span>
+* **Spanish**<span class="right-span">Native</span>
+* **French**<span class="right-span">Native</span>
+* **Basque**<span class="right-span">Native</span>
 * **English**<span class="right-span">B2</span>
 * **Japanese**<span class="right-span">Basics</span>
 
-<img src="images/communication.gif" style="position: absolute;z-index: -1;left: 7em;top: 7.5em;border-radius: 3em 2em 4em 1em;">
+<img src="images/communication.gif" style="position: absolute;z-index: -1;left: 5.5em;top: 9.5em;border-radius: 3em 2em 4em 1em;">
 
 <!-- .slide -->
 
