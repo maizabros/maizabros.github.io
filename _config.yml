@@ -630,7 +630,7 @@ defaults:
               }
               .reveal .progress,
               .reveal .controls{
-                color: var(--theme-base-color);
+                color: var(--theme-base-color) !important;
               }
               .right-span{
                 float: right;
