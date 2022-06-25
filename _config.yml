@@ -652,7 +652,7 @@ defaults:
               });
             "></script>
             <script>
-            $( document ).ready(function() {
+            document.addEventListener("DOMContentLoaded", function(event) {
                 var diff_birth = Date.now() - new Date("12/30/1997");
                 age = Math.abs(new Date(diff_birth).getUTCFullYear() - 1970);
                 document.getElementById("my-age").textContent = age;
