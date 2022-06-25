@@ -161,7 +161,7 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 * **English**<span class="right-span">B2</span>
 * **Japanese**<span class="right-span">Basics</span>
 
-<img src="images/communication.gif" style="position: absolute;z-index: -1;left: 5.5em;top: 9.5em;border-radius: 3em 2em 4em 1em;">
+<img src="images/langs.gif" style="position: absolute;z-index: -1;left: 11em;top: -2.75em;border-radius: 80em;width: 35%;filter: grayscale(1) contrast(5.5);">
 
 <!-- .slide -->
 
@@ -183,18 +183,18 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 - Phone
   - **+34 663681917**
 - Telegram
-  - [@maizabros](https://t.me/maizabros)
+  - [**@maizabros**](https://t.me/maizabros)
 - WeChat
-  - Maizabros
+  - **Maizabros**
 - E-mail:
   - Personal: **[adrian.maiza@gmail.com](mailto:adrian.maiza@gmail.com)**
-  - Profesional: **[maiza.115667@e.unavarra.es](mailto:maiza.115667@e.unavarra.es)**
+  - Prof.: **[maiza.115667@e.unavarra.es](mailto:maiza.115667@e.unavarra.es)**
 
 <!-- .slide -->
 
 <p class=heather2>Thank you! </p>
 
-I'll continue working (9｀･ω･)9
+I'll continue working 	(9｀･ω･)9
 
 <img class=abs src="images/working.gif" alt="working" style="
     position: absolute;
