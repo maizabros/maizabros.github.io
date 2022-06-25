@@ -51,7 +51,7 @@ defaults:
                 href: /archive/
               - title: '<i class="fa-solid fa-tags fa-fw"></i> Tags'
                 href: /tags/
-              - title: '<i class="fa-solid fa-coffee fa-fw"></i> Buy me a coffe'
+              - title: '<i class="fa-solid fa-coffee fa-fw"></i> Buy me a coffee'
                 href: /merger/
             simple_jekyll_search: 
               enable: true
@@ -583,7 +583,7 @@ defaults:
             - key: data-separator-vertical 
               value: <!-- .slide vertical=true -->
             - key: data-background-color
-              value: "#fdfdfd"
+              value: "#f4f4f4"
           prepend: |
             <link
               rel="stylesheet"
