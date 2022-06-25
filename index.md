@@ -6,7 +6,7 @@
 
 ## Who am I?
 
-My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree in Computer Science at Public University of Navarre (UPNA), located in Pamplona, Spain.\~
+My name is Adrian. I'm <text id="my-age"></text>years old and currently finishing my bachelor's degree in Computer Science at Public University of Navarre (UPNA), located in Pamplona, Spain.\~
 
 
 
