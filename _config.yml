@@ -583,7 +583,7 @@ defaults:
             - key: data-separator-vertical 
               value: <!-- .slide vertical=true -->
             - key: data-background-color
-              value: "#fdfdfd"
+              value: "#f4f4f4"
           prepend: |
             <link
               rel="stylesheet"
