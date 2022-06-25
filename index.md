@@ -165,7 +165,7 @@ My name is Adrian. I'm 24 years old and currently finishing my bachelor's degree
 
 <!-- .slide -->
 
-<img src="images/contact.gif" style="/* width: 50vh; */position: absolute;top: -50%;left: 25%;z-index: -1;">
+<img src="images/contact.gif" style="/* width: 50vh; */position: absolute;top: -50%;left: 35%;z-index: -1;">
 
 ## Contact
 
