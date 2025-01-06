@@ -1,0 +1,13 @@
+@import "../_globalColor";
+
+.dark-mode {
+  background-color: $darkBackground;
+  color: white;
+  transition: "0.1s";
+}
+
+.light-mode {
+  background-color: $lightBackground1;
+  color: $textColor;
+  transition: "0.1s";
+}

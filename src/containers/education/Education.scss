@@ -1,0 +1,102 @@
+@import "../../_globalColor";
+
+.education-heading {
+  font-size: 56px;
+  font-weight: 400;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem !important;
+  border-bottom: 2px solid $subTitle;
+}
+
+.education-main {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 20px;
+  width: 90%;
+  overflow: hidden;
+}
+
+.education-section {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 20px 0px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.educaiton-text-div > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.education-section > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.education-text-div {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.education-image-div {
+  display: flex;
+}
+
+.education-image-div > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.education-card-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.education-card {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media (max-width: 1380px) {
+  .education-card-container {
+    padding-top: 0px;
+  }
+  .education-heading {
+    font-size: 40px;
+  }
+  .education-text-subtitle {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .education-card-container {
+    padding-top: 0px;
+  }
+  .education-heading {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .education-text-subtitle {
+    font-size: 16px;
+    text-align: left;
+  }
+  .education-main {
+    flex-direction: column;
+  }
+  .education-text-div {
+    margin-left: 0px;
+  }
+  .education-image-div {
+    // display: none;
+    order: 2;
+  }
+}
