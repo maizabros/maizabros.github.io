@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.c96b77f2.css",
-    "main.js": "/static/js/main.b7a1bcad.js",
+    "main.css": "/static/css/main.ba3c42ca.css",
+    "main.js": "/static/js/main.a055a030.js",
     "static/css/64.cf11ecd8.chunk.css": "/static/css/64.cf11ecd8.chunk.css",
     "static/js/64.41912c0a.chunk.js": "/static/js/64.41912c0a.chunk.js",
     "static/css/769.2b1f12b4.chunk.css": "/static/css/769.2b1f12b4.chunk.css",
-    "static/js/769.6b18baac.chunk.js": "/static/js/769.6b18baac.chunk.js",
+    "static/js/769.02923cfa.chunk.js": "/static/js/769.02923cfa.chunk.js",
     "static/media/Thesis.pdf": "/static/media/Thesis.ecfd3d9b1de7008a08a3.pdf",
     "static/media/Desde las bases hasta Stable Diffusion.pdf": "/static/media/Desde las bases hasta Stable Diffusion.e1984751d7bb395d850e.pdf",
     "static/media/Arquitecturas_GAN_Avanzadas.pdf": "/static/media/Arquitecturas_GAN_Avanzadas.a89d7bde758126a38a3b.pdf",
@@ -15,6 +15,8 @@
     "static/media/Poster TFG.pdf": "/static/media/Poster TFG.c94fc2e712f850ec9b46.pdf",
     "static/media/logo_navarrensis_red.png": "/static/media/logo_navarrensis_red.fca9d7b3577b4ae340a0.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/履歴書.pdf": "/static/media/履歴書.180e1f3049ca65e93e7c.pdf",
+    "static/media/職務経歴書.pdf": "/static/media/職務経歴書.089bf0551c5461331d79.pdf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/research_project.png": "/static/media/research_project.86d1b1134bee306b0265.png",
     "static/media/bthlogo_svart_platt.png": "/static/media/bthlogo_svart_platt.6bcaa20feabc5400aba1.png",
@@ -26,18 +28,17 @@
     "static/media/TracasaLogo.png": "/static/media/TracasaLogo.719af355a837ee73163f.png",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/courseraLogo.png": "/static/media/courseraLogo.d899d9fcf76316157b90.png",
-    "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.225232947f2789b9df4c.svg",
-    "main.c96b77f2.css.map": "/static/css/main.c96b77f2.css.map",
-    "main.b7a1bcad.js.map": "/static/js/main.b7a1bcad.js.map",
+    "main.ba3c42ca.css.map": "/static/css/main.ba3c42ca.css.map",
+    "main.a055a030.js.map": "/static/js/main.a055a030.js.map",
     "64.cf11ecd8.chunk.css.map": "/static/css/64.cf11ecd8.chunk.css.map",
     "64.41912c0a.chunk.js.map": "/static/js/64.41912c0a.chunk.js.map",
     "769.2b1f12b4.chunk.css.map": "/static/css/769.2b1f12b4.chunk.css.map",
-    "769.6b18baac.chunk.js.map": "/static/js/769.6b18baac.chunk.js.map"
+    "769.02923cfa.chunk.js.map": "/static/js/769.02923cfa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c96b77f2.css",
-    "static/js/main.b7a1bcad.js"
+    "static/css/main.ba3c42ca.css",
+    "static/js/main.a055a030.js"
   ]
 }
