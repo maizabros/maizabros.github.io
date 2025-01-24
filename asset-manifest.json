@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba3c42ca.css",
-    "main.js": "/static/js/main.a055a030.js",
+    "main.css": "/static/css/main.e5e7d6b6.css",
+    "main.js": "/static/js/main.b8d1e0f3.js",
     "static/css/64.cf11ecd8.chunk.css": "/static/css/64.cf11ecd8.chunk.css",
     "static/js/64.41912c0a.chunk.js": "/static/js/64.41912c0a.chunk.js",
     "static/css/769.2b1f12b4.chunk.css": "/static/css/769.2b1f12b4.chunk.css",
@@ -30,15 +30,15 @@
     "static/media/courseraLogo.png": "/static/media/courseraLogo.d899d9fcf76316157b90.png",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.225232947f2789b9df4c.svg",
-    "main.ba3c42ca.css.map": "/static/css/main.ba3c42ca.css.map",
-    "main.a055a030.js.map": "/static/js/main.a055a030.js.map",
+    "main.e5e7d6b6.css.map": "/static/css/main.e5e7d6b6.css.map",
+    "main.b8d1e0f3.js.map": "/static/js/main.b8d1e0f3.js.map",
     "64.cf11ecd8.chunk.css.map": "/static/css/64.cf11ecd8.chunk.css.map",
     "64.41912c0a.chunk.js.map": "/static/js/64.41912c0a.chunk.js.map",
     "769.2b1f12b4.chunk.css.map": "/static/css/769.2b1f12b4.chunk.css.map",
     "769.02923cfa.chunk.js.map": "/static/js/769.02923cfa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba3c42ca.css",
-    "static/js/main.a055a030.js"
+    "static/css/main.e5e7d6b6.css",
+    "static/js/main.b8d1e0f3.js"
   ]
 }
