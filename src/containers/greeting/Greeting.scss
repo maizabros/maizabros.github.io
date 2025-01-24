@@ -5,12 +5,12 @@
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 4rem;
+  box-sizing: border-box;
 }
+
 .greet-main {
   width: 90%;
-  padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 2rem;
 }
 
 .greeting-main {
@@ -23,6 +23,9 @@
 
 .greeting-main {
   display: flex;
+  margin-top: 0;
+  align-content: center;
+  justify-content: center;
 }
 
 .greeting-main > * {
@@ -38,6 +41,7 @@
   display: flex;
   margin-top: 40px;
 }
+
 .download-link-button {
   text-decoration: none;
 }
@@ -48,14 +52,35 @@
   color: $textColor !important;
 }
 
+.greeting-text-div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.greeting-text-div > div > * {
+  margin: 20px;
+}
+
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
 }
 
-.greeting-image-div > img {
+.greeting-image-div {
+  max-width: 100%;
+  padding-left: 100px;
+  margin-right: -75px;
+}
+
+.greeting-image-div svg {
   max-width: 100%;
   height: auto;
+}
+
+.greeting-image-div svg {
+  filter: hue-rotate(-45deg) saturate(0.5) brightness(0.95) contrast(1.05);
 }
 
 .wave-emoji {
@@ -90,16 +115,16 @@
   }
 }
 
-/* Media Query */
+// /* Media Query */
+// @media (max-width: 1380px) {
+//   .greeting-text {
+//     font-size: 50px;
+//   }
+//   .greeting-text-p {
+//     font-size: 20px;
+//   }
+// }
 @media (max-width: 1380px) {
-  .greeting-text {
-    font-size: 50px;
-  }
-  .greeting-text-p {
-    font-size: 20px;
-  }
-}
-@media (max-width: 768px) {
   .button-greeting-div {
     justify-content: space-around;
   }
@@ -123,7 +148,17 @@
     display: block;
   }
   .greeting-image-div {
-    height: 256px;
+    flex: 1;
+    width: 66%;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+@media (max-width: 768px) {
+  .greeting-image-div {
+    width: 100%;
+    margin-top: -50px;
+    padding: 0;
   }
 }
 

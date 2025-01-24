@@ -4,9 +4,12 @@ import AchievementCard from "../../components/achievementCard/AchievementCard";
 import { achievementSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import LanguageContext from "../../contexts/LanguageContext";
+
 export default function Achievement() {
   const { isDark } = useContext(StyleContext);
-  if (!achievementSection.display) {
+  const { language } = useContext(LanguageContext);
+  if (!achievementSection[language].display) {
     return null;
   }
   return (
@@ -21,7 +24,7 @@ export default function Achievement() {
                   : "heading achievement-heading"
               }
             >
-              {achievementSection.title}
+              {achievementSection[language].title}
             </h1>
             <p
               className={
@@ -30,11 +33,11 @@ export default function Achievement() {
                   : "subTitle achievement-subtitle"
               }
             >
-              {achievementSection.subtitle}
+              {achievementSection[language].subtitle}
             </p>
           </div>
           <div className="achievement-cards-div">
-            {achievementSection.achievementsCards.map((card, i) => {
+            {achievementSection[language].achievementsCards.map((card, i) => {
               return (
                 <AchievementCard
                   key={i}

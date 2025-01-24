@@ -2,8 +2,11 @@
 
 .talk-header-title {
   font-size: 56px;
-  font-weight: 400;
-  line-height: 0px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid $subTitle;
 }
 
 .talk-cards-div {
@@ -18,7 +21,7 @@
 
 @media (max-width: 768px) {
   .talk-header-title {
-    font-size: 30px;
+    font-size: 2.5rem;
     text-align: center;
   }
   .talk-header-subtitle {

@@ -14,8 +14,9 @@
 }
 
 .contact-title {
-  font-size: 65px;
-  font-weight: 400;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .contact-detail,
@@ -35,13 +36,9 @@
 
 .contact-detail:hover,
 .contact-detail-email:hover {
-  color: $textColor;
-  text-shadow: 2px 1px 2px $contactDetailHoverTS;
+  color: $buttonColor;
+  // text-shadow: 2px 1px 2px $buttonColor;
   transition: all 0.3s;
-}
-
-.contact-subtitle {
-  text-transform: uppercase;
 }
 
 .contact-text-div {
@@ -55,6 +52,10 @@
 .contact-image-div {
   max-width: 70%;
   height: auto;
+}
+
+.contact-image-div svg {
+  filter: hue-rotate(-45deg) saturate(0.5) brightness(0.95) contrast(1.05);
 }
 
 .contact-image-div > img {
@@ -93,7 +94,20 @@
     font-size: 20px;
   }
 
+  .contact-div-main {
+    flex-direction: column;
+  }
+
   .contact-image-div {
-    display: none;
+    flex: 1;
+    order: 2;
+    width: 66%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-image-div {
+    width: 100%;
   }
 }

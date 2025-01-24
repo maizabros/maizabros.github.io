@@ -6,15 +6,19 @@ import { Fade } from "react-reveal";
 import contact from "../../assets/lottie/contact";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import LanguageContext from "../../contexts/LanguageContext";
 
 export default function Contact() {
   const { isDark } = useContext(StyleContext);
+  const { language } = useContext(LanguageContext);
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
         <div className="contact-div-main">
           <div className="contact-header">
-            <h1 className="heading contact-title">{contactInfo.title}</h1>
+            <h1 className="heading contact-title">
+              {contactInfo[language].title}
+            </h1>
             <p
               className={
                 isDark
@@ -22,7 +26,7 @@ export default function Contact() {
                   : "subTitle contact-subtitle"
               }
             >
-              {contactInfo.subtitle}
+              {contactInfo[language].subtitle}
             </p>
             <div
               className={
@@ -32,13 +36,13 @@ export default function Contact() {
               }
             >
               <i className="fas fa-phone"></i>{" "}
-              {contactInfo.number && (
+              {contactInfo[language].number && (
                 <>
                   <a
                     className="contact-detail"
-                    href={"tel:" + contactInfo.number}
+                    href={"tel:" + contactInfo[language].number}
                   >
-                    {contactInfo.number}
+                    {contactInfo[language].number}
                   </a>
                   <br />
                   <br />
@@ -47,9 +51,9 @@ export default function Contact() {
               <i className="fas fa-paper-plane"></i>{" "}
               <a
                 className="contact-detail-email"
-                href={"mailto:" + contactInfo.email_address}
+                href={"mailto:" + contactInfo[language].email_address}
               >
-                {contactInfo.email_address}
+                {contactInfo[language].email_address}
               </a>
               <br />
               <br />
@@ -57,7 +61,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="contact-image-div">
-            {illustration.animated ? (
+            {illustration[language].animated ? (
               <DisplayLottie animationData={contact} />
             ) : (
               <img

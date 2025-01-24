@@ -7,12 +7,19 @@ import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import HelloText from "../../components/helloText/HelloText";
-import { illustration, greeting } from "../../portfolio";
+import {
+  illustration,
+  greeting,
+  contactInfo,
+  resumeSection,
+} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import LanguageContext from "../../contexts/LanguageContext";
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
-  if (!greeting.displayGreeting) {
+  const { language } = useContext(LanguageContext);
+  if (!greeting[language].display) {
     return null;
   }
   return (
@@ -34,26 +41,36 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                {greeting.subTitle}
+                {greeting[language].subTitle}
               </p>
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
-                {greeting.resumeLink && (
-                  <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
+                <Button
+                  text={contactInfo[language].buttonText}
+                  href="#contact"
+                />
+                {greeting[language].resumeLink && (
+                  <Button
+                    href={greeting[language].resumeLink}
+                    text={resumeSection[language].buttonText}
                     className="download-link-button"
-                  >
-                    <Button text="Download my resume" />
-                  </a>
+                    download={true}
+                  />
+                )}
+                {greeting[language].shokumukeiLink && (
+                  <Button
+                    href={greeting[language].shokumukeiLink}
+                    text={resumeSection[language].shokumukeiText}
+                    className="download-link-button"
+                    download={true}
+                  />
                 )}
               </div>
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
+            {illustration[language].animated ? (
               <DisplayLottie animationData={meeting} />
             ) : (
               <img

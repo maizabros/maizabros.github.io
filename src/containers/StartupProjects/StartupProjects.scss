@@ -1,9 +1,12 @@
 @import "../../_globalColor";
 
-.skills-heading {
+.projects-heading {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: normal;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid $subTitle;
+  border-bottom: 2px solid $subTitle;
 }
 
 .project-card .card-image,
@@ -16,21 +19,25 @@
 }
 
 .card-title {
+  background-color: transparent !important;
   color: $titleColor;
-  font-size: 22px;
+  font-size: 1.68rem;
   line-height: 24px;
   font-weight: 700;
-  margin: 15px 0 0 0;
+  margin: 0;
 }
 .card-subtitle {
+  background-color: transparent !important;
   color: $cardSubtitle;
   font-size: 17px;
   line-height: 1.5rem;
 }
 .project-card {
+  position: relative;
   display: block;
   background-color: $lightBackground1;
-  border-radius: 20px;
+  border-radius: 10px;
+  padding-bottom: 1.5rem;
   border: 1px solid $lightBorder1;
   justify-content: center;
 }
@@ -51,15 +58,18 @@
 }
 
 .project-detail {
-  padding: 1.5rem;
+  padding: 2em 1.5rem;
   text-align: center;
 }
 .project-card-light:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+  background-color: darken($lightBackground1, 1%);
 }
 .project-card-dark:hover {
   box-shadow: 0px 20px 30px -10px $darkBoxShadow2;
+  background-color: lighten($darkBackground2, 1%);
 }
+
 .project-image {
   display: flex;
   height: 233px;
@@ -79,14 +89,26 @@
   gap: 1rem 1rem;
 }
 
+.project-card-footer {
+  position: absolute;
+  // top: 13.5rem;
+  bottom: 1rem;
+  right: 1rem;
+  transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+
 .project-card-footer span.project-tag {
   background: $buttonColor;
-  color: $lightBackground3;
+  color: $lightBackground1;
+  border: solid 1px $buttonColor;
+  font-weight: 600;
   vertical-align: middle;
   align-items: center;
-  border-radius: 4px;
+  border-radius: 100px;
   display: inline-flex;
-  font-size: 0.75rem;
+  font-size: 1rem;
   height: 2em;
   justify-content: center;
   white-space: nowrap;
@@ -94,10 +116,19 @@
   margin: 0 0.5rem 0.5rem 0;
   padding: 0 0.75em;
   cursor: pointer;
-  transition: 0.2s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.project-card-footer span.project-tag:hover {
+  background: $buttonHover;
+  transform: translateY(-3px);
 }
 
 @media (max-width: 768px) {
+  .projects-heading {
+    font-size: 2.5rem;
+    text-align: center;
+  }
   .project-subtitle {
     font-size: 16px;
     text-align: center;

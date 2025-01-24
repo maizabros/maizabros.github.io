@@ -3,8 +3,8 @@ import "./Project.scss";
 import Button from "../../components/button/Button";
 import { openSource, socialMediaLinks } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import LanguageContext from "../../contexts/LanguageContext";
 import Loading from "../../containers/loading/Loading";
-import emoji from "react-easy-emoji";
 
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
@@ -13,8 +13,8 @@ export default function Projects() {
   const FailedLoading = () => null;
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
-  // todo: remove useContex because is not supported
   const { isDark } = useContext(StyleContext);
+  const { language } = useContext(LanguageContext);
 
   useEffect(() => {
     const getRepoData = () => {
@@ -43,12 +43,12 @@ export default function Projects() {
   }
   if (
     !(typeof repo === "string" || repo instanceof String) &&
-    openSource.display
+    openSource[language].display
   ) {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource">
-          <h1 className="project-title">{emoji("Open Source 🔓⌨️")}</h1>
+          <h1 className="project-title">{openSource[language].title}</h1>
           <div className="repo-cards-div-main">
             {repo.map((v, i) => {
               if (!v) {
@@ -60,13 +60,15 @@ export default function Projects() {
                 <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} />
               );
             })}
+            <div className="more-repo-div">
+              <Button
+                text={openSource[language].buttonText}
+                className="project-button"
+                href={socialMediaLinks[language].github}
+                newTab={true}
+              />
+            </div>
           </div>
-          <Button
-            text={"See more Projects"}
-            className="project-button"
-            href={socialMediaLinks.github}
-            newTab={true}
-          />
         </div>
       </Suspense>
     );

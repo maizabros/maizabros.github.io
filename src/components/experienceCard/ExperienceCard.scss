@@ -24,10 +24,12 @@
 
 .experience-card:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+  background-color: darken($lightBackground1, 1%);
 }
 
 .experience-card-dark:hover {
   box-shadow: $darkBoxShadow2 0px 20px 30px -10px;
+  background-color: lighten($darkBackground, 1%);
 }
 
 .experience-banner {
@@ -162,6 +164,9 @@
     font-size: 18px;
   }
   .experience-text-desc {
+    font-size: 16px;
+  }
+  .experience-text-details ul {
     font-size: 16px;
   }
 }

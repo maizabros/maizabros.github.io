@@ -3,20 +3,23 @@ import "./WorkExperience.scss";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 import { workExperiences } from "../../portfolio";
 import { Fade } from "react-reveal";
-import emoji from "react-easy-emoji";
 import StyleContext from "../../contexts/StyleContext";
+import LanguageContext from "../../contexts/LanguageContext";
 
 export default function WorkExperience() {
   const { isDark } = useContext(StyleContext);
-  if (workExperiences.display) {
+  const { language } = useContext(LanguageContext);
+  if (workExperiences[language].display) {
     return (
       <div id="experience">
         <Fade bottom duration={1000} distance="20px">
           <div className="experience-container" id="workExperience">
             <div>
-              <h1 className="experience-heading">{emoji("Experience 💻💼")}</h1>
+              <h1 className="experience-heading">
+                {workExperiences[language].title}
+              </h1>
               <div className="experience-cards-div">
-                {workExperiences.experience.map((card, i) => {
+                {workExperiences[language].experience.map((card, i) => {
                   return (
                     <ExperienceCard
                       key={i}

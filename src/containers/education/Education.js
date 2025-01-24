@@ -1,19 +1,19 @@
 import React from "react";
 import "./Education.scss";
 import EducationCard from "../../components/educationCard/EducationCard";
-import { educationInfo } from "../../portfolio";
+import { educationInfo, illustration } from "../../portfolio";
 import { useContext } from "react";
 import StyleContext from "../../contexts/StyleContext";
+import LanguageContext from "../../contexts/LanguageContext";
 import education from "../../assets/lottie/education";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-import { illustration } from "../../portfolio";
-import emoji from "react-easy-emoji";
 import Fade from "react-reveal/Fade";
 
 export default function Education() {
   const { isDark } = useContext(StyleContext);
+  const { language } = useContext(LanguageContext);
 
-  if (educationInfo.display) {
+  if (educationInfo[language].display) {
     return (
       <div
         className={
@@ -22,9 +22,11 @@ export default function Education() {
       >
         <div className="education-text-div">
           <div className="education-section" id="education">
-            <h1 className="education-heading">{emoji("Education 📚🎓")}</h1>
+            <h1 className="education-heading">
+              {educationInfo[language].title}
+            </h1>
             <div className="education-card-container">
-              {educationInfo.schools.map((school, index) => (
+              {educationInfo[language].schools.map((school, index) => (
                 <EducationCard key={index} school={school} />
               ))}
             </div>
@@ -32,7 +34,7 @@ export default function Education() {
         </div>
         <Fade right duration={1000} distance="80px">
           <div className="education-image-div">
-            {illustration.animated ? (
+            {illustration[language].animated ? (
               <DisplayLottie animationData={education} />
             ) : (
               <img

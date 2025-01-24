@@ -7,15 +7,17 @@
 
 /* Rectangle Card Layout */
 .rectangle {
+  position: relative;
   background: url(../../assets/images/talksCardBack.svg);
   width: 380px;
   height: 300px;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   margin-top: 50px;
+  padding-bottom: 1.5rem;
 }
 .rectangle:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
@@ -63,20 +65,31 @@
 .talk-button {
   background-color: $buttonColor;
   color: $textColorDark;
+  border: solid 1px $buttonColor;
+  font-weight: 600;
   width: 90px;
+  margin-left: -46px; // (width + border*2) / 2
   padding: 10px 18px;
-  border-radius: 3px;
+  border-radius: 100px;
   text-align: center;
   text-decoration: none;
   display: block;
-  margin-top: 20px;
-  font-size: 14px;
+  margin-top: 5px;
+  font-size: 16px;
   cursor: pointer;
+  transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
 }
+
 .talk-button:hover {
   background: $buttonHover;
+  transform: translateY(-3px);
 }
 .card-footer-button-div {
+  position: absolute;
+  left: 50%;
+  bottom: 1.5rem;
   display: flex;
   justify-content: space-around;
 }
@@ -97,24 +110,6 @@
   }
   .talk-card-image {
     width: 100%;
-  }
-
-  .talk-button {
-    background-color: $buttonColor;
-    color: $textColorDark;
-    width: 90px;
-    padding: 10px 18px;
-    border-radius: 3px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    margin-top: 20px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: 0.2s ease-in;
-  }
-  .talk-button:hover {
-    background: $buttonHover;
   }
   .card-footer-button-div {
     display: flex;

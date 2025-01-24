@@ -2,22 +2,19 @@ import React, { useEffect, useState } from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
-import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
 import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
-import Blogs from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
-import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
-import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
 import { splashScreen } from "../portfolio";
 import { StyleProvider } from "../contexts/StyleContext";
+import { LanguageProvider } from "../contexts/LanguageContext";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import "./Main.scss";
 
@@ -28,11 +25,15 @@ const Main = () => {
     true
   );
 
+  // get default language from browser
+  const langPref = "jp";
+  const [language, setLanguage] = useLocalStorage("jp", langPref);
+
   useEffect(() => {
-    if (splashScreen.enabled) {
+    if (splashScreen[language].enabled) {
       const splashTimer = setTimeout(
         () => setIsShowingSplashAnimation(false),
-        splashScreen.duration
+        splashScreen[language].duration
       );
       return () => {
         clearTimeout(splashTimer);
@@ -44,32 +45,36 @@ const Main = () => {
     setIsDark(!isDark);
   };
 
+  const changeLanguage = (language) => {
+    setLanguage(language);
+  };
+
   return (
     <div className={isDark ? "dark-mode" : "light-mode"}>
-      <StyleProvider value={{ isDark: isDark, changeTheme: changeTheme }}>
-        {isShowingSplashAnimation && splashScreen.enabled ? (
-          <SplashScreen />
-        ) : (
-          <>
-            <Header />
-            <Greeting />
-            <Skills />
-            <StackProgress />
-            <Education />
-            <WorkExperience />
-            <Projects />
-            <StartupProject />
-            <Achievement />
-            <Blogs />
-            <Talks />
-            <Twitter />
-            <Podcast />
-            <Profile />
-            <Footer />
-            <ScrollToTopButton />
-          </>
-        )}
-      </StyleProvider>
+      <LanguageProvider
+        value={{ language: language, changeLanguage: changeLanguage }}
+      >
+        <StyleProvider value={{ isDark: isDark, changeTheme: changeTheme }}>
+          {isShowingSplashAnimation && splashScreen[language].enabled ? (
+            <SplashScreen />
+          ) : (
+            <>
+              <Header />
+              <Greeting />
+              <Skills />
+              <Education />
+              <WorkExperience />
+              <Projects />
+              <StartupProject />
+              <Achievement />
+              <Talks />
+              <Profile />
+              <Footer />
+              <ScrollToTopButton />
+            </>
+          )}
+        </StyleProvider>
+      </LanguageProvider>
     </div>
   );
 };

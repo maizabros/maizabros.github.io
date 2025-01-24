@@ -1,0 +1,63 @@
+@import "../../_globalColor";
+
+.language-div button,
+.language-div-dark button {
+  width: 100%;
+  max-width: 200px;
+  height: 53px;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.menu-flags {
+  position: relative;
+}
+
+.menu-flags ul {
+  background: $lightBackground1;
+  color: $textColor;
+  border: none;
+  overflow: visible;
+  margin: 0 -10px 0 -11px;
+  padding: 0 10px;
+}
+
+.menu-flags ul > li {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.menu-flags ul > li:hover {
+  background: $headerHoverBG;
+}
+
+.flags-dark ul > li:hover {
+  background: $buttonColor;
+}
+
+.flags-dark ul {
+  background: $darkBackground;
+  color: $textColorDark;
+}
+
+.language-div button:focus,
+.language-div-dark button:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .language-div button {
+    width: 75px;
+  }
+  .menu-flags {
+    width: 100%;
+    margin-left: 5px;
+  }
+  .menu-flags ul {
+    position: relative;
+    margin-left: 10px;
+  }
+}

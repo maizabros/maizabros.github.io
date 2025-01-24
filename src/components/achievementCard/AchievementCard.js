@@ -24,7 +24,7 @@ export default function AchievementCard({ cardInfo, isDark }) {
         className={
           cardInfo.type === "certification"
             ? "fa-solid fa-award"
-            : "fa-solid fa-trophy"
+            : "fa-solid fa-medal"
         }
       ></i>
       <div className="certificate-image-div">
@@ -33,14 +33,6 @@ export default function AchievementCard({ cardInfo, isDark }) {
           alt={cardInfo.imageAlt || "Card Thumbnail"}
           className="card-image"
         ></img>
-      </div>
-      <div className="certificate-detail-div">
-        <h5 className={isDark ? "dark-mode card-title" : "card-title"}>
-          {cardInfo.title}
-        </h5>
-        <p className={isDark ? "dark-mode card-subtitle" : "card-subtitle"}>
-          {cardInfo.description}
-        </p>
       </div>
       <div className="certificate-card-footer">
         {cardInfo.footer.map((v, i) => {
@@ -56,6 +48,14 @@ export default function AchievementCard({ cardInfo, isDark }) {
             </span>
           );
         })}
+      </div>
+      <div className="certificate-detail-div">
+        <h5 className={isDark ? "dark-mode card-title" : "card-title"}>
+          {cardInfo.title}
+        </h5>
+        <p className={isDark ? "dark-mode card-subtitle" : "card-subtitle"}>
+          {cardInfo.description}
+        </p>
       </div>
     </div>
   );

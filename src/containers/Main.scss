@@ -1,5 +1,8 @@
 @import "../_globalColor";
 
+* {
+  box-sizing: border-box;
+}
 .dark-mode {
   background-color: $darkBackground;
   color: white;
@@ -10,4 +13,10 @@
   background-color: $lightBackground1;
   color: $textColor;
   transition: "0.1s";
+}
+
+@media (max-width: 768px) {
+  body > * {
+    zoom: 0.9;
+  }
 }

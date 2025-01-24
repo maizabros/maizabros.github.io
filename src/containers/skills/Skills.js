@@ -6,10 +6,12 @@ import { Fade } from "react-reveal";
 import skills from "../../assets/lottie/skills";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import LanguageContext from "../../contexts/LanguageContext";
 
 export default function Skills() {
   const { isDark } = useContext(StyleContext);
-  if (!skillsSection.display) {
+  const { language } = useContext(LanguageContext);
+  if (!skillsSection[language].display) {
     return null;
   }
   return (
@@ -17,7 +19,7 @@ export default function Skills() {
       <div className="skills-main-div">
         <Fade left duration={1000} distance="40px">
           <div className="skills-image-div">
-            {illustration.animated ? (
+            {illustration[language].animated ? (
               <DisplayLottie animationData={skills} />
             ) : (
               <img
@@ -32,7 +34,7 @@ export default function Skills() {
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
             >
-              {skillsSection.title}{" "}
+              {skillsSection[language].title}{" "}
             </h1>
             <p
               className={
@@ -41,11 +43,11 @@ export default function Skills() {
                   : "subTitle skills-text-subtitle"
               }
             >
-              {skillsSection.subTitle}
+              {skillsSection[language].subTitle}
             </p>
             <SoftwareSkill />
             <div>
-              {skillsSection.skills.map((skills, i) => {
+              {skillsSection[language].skills.map((skills, i) => {
                 return (
                   <p
                     key={i}

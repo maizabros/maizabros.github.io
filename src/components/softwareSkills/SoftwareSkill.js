@@ -1,13 +1,15 @@
 import React from "react";
 import "./SoftwareSkill.scss";
 import { skillsSection } from "../../portfolio";
+import LanguageContext from "../../contexts/LanguageContext";
 
 export default function SoftwareSkill() {
+  const { language } = React.useContext(LanguageContext);
   return (
     <div>
       <div className="software-skills-main-div">
         <ul className="dev-icons">
-          {skillsSection.softwareSkills.map((skills, i) => {
+          {skillsSection[language].softwareSkills.map((skills, i) => {
             return (
               <li
                 key={i}

@@ -4,17 +4,20 @@ import TalkCard from "../../components/talkCard/TalkCard";
 import { talkSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import LanguageContext from "../../contexts/LanguageContext";
 
 export default function Talks() {
   const { isDark } = useContext(StyleContext);
-  if (!talkSection.display) {
+  const { language } = useContext(LanguageContext);
+
+  if (!talkSection[language].display) {
     return null;
   }
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="talks">
         <div className="talk-header">
-          <h1 className="talk-header-title">{talkSection.title}</h1>
+          <h1 className="talk-header-title">{talkSection[language].title}</h1>
           <p
             className={
               isDark
@@ -22,10 +25,10 @@ export default function Talks() {
                 : "subTitle talk-header-subtitle"
             }
           >
-            {talkSection.subtitle}
+            {talkSection[language].subtitle}
           </p>
           <div className="talk-cards-div">
-            {talkSection.talks.map((talk, i) => {
+            {talkSection[language].talks.map((talk, i) => {
               return (
                 <TalkCard
                   key={i}
