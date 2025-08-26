@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e5e7d6b6.css",
-    "main.js": "/static/js/main.b8d1e0f3.js",
+    "main.css": "/static/css/main.1e839ec2.css",
+    "main.js": "/static/js/main.04ef7b89.js",
     "static/css/64.cf11ecd8.chunk.css": "/static/css/64.cf11ecd8.chunk.css",
     "static/js/64.41912c0a.chunk.js": "/static/js/64.41912c0a.chunk.js",
     "static/css/769.2b1f12b4.chunk.css": "/static/css/769.2b1f12b4.chunk.css",
@@ -15,30 +15,29 @@
     "static/media/Poster TFG.pdf": "/static/media/Poster TFG.c94fc2e712f850ec9b46.pdf",
     "static/media/logo_navarrensis_red.png": "/static/media/logo_navarrensis_red.fca9d7b3577b4ae340a0.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/履歴書.pdf": "/static/media/履歴書.180e1f3049ca65e93e7c.pdf",
-    "static/media/職務経歴書.pdf": "/static/media/職務経歴書.089bf0551c5461331d79.pdf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/research_project.png": "/static/media/research_project.86d1b1134bee306b0265.png",
+    "static/media/computermind_logo.jpg": "/static/media/computermind_logo.560ac7ff22ad0a3453d7.jpg",
     "static/media/bthlogo_svart_platt.png": "/static/media/bthlogo_svart_platt.6bcaa20feabc5400aba1.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/tracasa-instrumental-thumbnail.png": "/static/media/tracasa-instrumental-thumbnail.7e01ada05a3fc96de53d.png",
     "static/media/CatedraTracasUPNALogo.png": "/static/media/CatedraTracasUPNALogo.24fe3c8b536662b5b7c4.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
-    "static/media/Maiza_Adrian__CV.pdf": "/static/media/Maiza_Adrian__CV.a04f585916d6bbf2ef3f.pdf",
+    "static/media/Maiza_Adrian__CV.pdf": "/static/media/Maiza_Adrian__CV.727de2df6938aab4f06a.pdf",
     "static/media/TracasaLogo.png": "/static/media/TracasaLogo.719af355a837ee73163f.png",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/courseraLogo.png": "/static/media/courseraLogo.d899d9fcf76316157b90.png",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.225232947f2789b9df4c.svg",
-    "main.e5e7d6b6.css.map": "/static/css/main.e5e7d6b6.css.map",
-    "main.b8d1e0f3.js.map": "/static/js/main.b8d1e0f3.js.map",
+    "main.1e839ec2.css.map": "/static/css/main.1e839ec2.css.map",
+    "main.04ef7b89.js.map": "/static/js/main.04ef7b89.js.map",
     "64.cf11ecd8.chunk.css.map": "/static/css/64.cf11ecd8.chunk.css.map",
     "64.41912c0a.chunk.js.map": "/static/js/64.41912c0a.chunk.js.map",
     "769.2b1f12b4.chunk.css.map": "/static/css/769.2b1f12b4.chunk.css.map",
     "769.02923cfa.chunk.js.map": "/static/js/769.02923cfa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5e7d6b6.css",
-    "static/js/main.b8d1e0f3.js"
+    "static/css/main.1e839ec2.css",
+    "static/js/main.04ef7b89.js"
   ]
 }
