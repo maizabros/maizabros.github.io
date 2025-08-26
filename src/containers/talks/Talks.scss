@@ -19,6 +19,11 @@
   color: $subTitle;
 }
 
+.talk-header span {
+  color: $subTitle;
+  font-size: smaller;
+}
+
 @media (max-width: 768px) {
   .talk-header-title {
     font-size: 2.5rem;

@@ -17,7 +17,7 @@ const es = {
     section: "Inicio",
     title: "¡Hola!",
     subTitle: emoji(
-      "Mi nombre es Adrian Maiza, entusiasta Desarrollador 💻 e Ingeniero IA 📊. Actualmente mejorando mis habilidades de japonés 📚 mientras busco trabajo a tiempo completo 💼 aquí en Tokio, Japón 🗾"
+      "Mi nombre es Adrian Maiza, Ingeniero de IA y Machine Learning con más de 2 años de experiencia en investigación y desarrollo. Actualmente trabajando en Computermind Corp. en Tokio, enfocado en investigación académica y desarrollo de tecnologías de IA."
     ),
     resumeLink: require("../assets/pdf/Maiza_Adrian__CV.pdf"),
     display: true,
@@ -35,7 +35,7 @@ const es = {
     section: "Habilidades",
     title: "¿Qué puedo hacer?",
     subTitle:
-      "Soy un políglota muy curioso que siempre está buscando nuevos desafíos. Desde investigar el estado del arte en Deep Learning hasta aprender idiomas, aquí tienes algunas de mis habilidades:",
+      "Soy un Ingeniero de IA y Machine Learning con más de 2 años de experiencia en investigación y desarrollo. Desde investigar técnicas de Deep Learning de vanguardia hasta desarrollar sistemas de IA en producción, aquí tienes algunas de mis habilidades:",
     skills: [
       emoji(
         "🔍 Investigar en el estado del arte del Deep Learning y la IA Generativa"
@@ -48,7 +48,7 @@ const es = {
       emoji("🗣️ Dar charlas y presentaciones"),
       emoji("🔧 Uso avanzado de Linux y Windows"),
       emoji(
-        "🗺️ Nativo en español, francés y euskera, fluido en inglés y nivel avanzado en japonés"
+        "🗺️ Nativo en español, francés y euskera, fluido en inglés y nivel avanzado en japonés (~N2)"
       ),
     ],
     softwareSkills: [
@@ -115,35 +115,45 @@ const es = {
     title: emoji("Experiencia 💻💼"),
     experience: [
       {
+        role: "Ingeniero de IA y Software",
+        company: "Computermind Corp.",
+        companylogo: require("../assets/images/computermind_logo.jpg"), // You'll need to add this logo
+        date: "Abril 2025 - Presente",
+        desc:
+          "Investigación académica y desarrollo de nuevas tecnologías de IA para proyectos de stakeholders",
+        descBullets: [
+          "Investigación académica a través del análisis exhaustivo de papers de investigación",
+          "Desarrollo de nuevas tecnologías de IA para proyectos de stakeholders usando Python",
+          "Contribución a iniciativas de I+D en soluciones de IA y machine learning",
+        ],
+      },
+      {
         role: "Asistente de Investigación",
         company: "Universidad Pública de Navarra",
         companylogo: require("../assets/images/logo_navarrensis_red.png"),
         date: "Octubre 2022 - Diciembre 2023",
         desc:
-          "Investigación sobre técnicas de IA Generativa y Deep Learning para la generación infinita de personajes audiovisuales consistentes en estilo.",
+          "Investigación sobre técnicas de IA Generativa y Deep Learning para la generación infinita de personajes audiovisuales consistentes en estilo",
         descBullets: [
-          "Colaboración entre el equipos de la Universidad y de la Empresa",
+          "Co-autor de artículo académico para IEEE WCCI 2024",
+          "Desarrollo de técnicas de modelos de difusión para generación de personajes consistentes en estilo",
+          "Participación en dos proyectos de investigación financiados por el Gobierno de Navarra",
           "Investigación sobre tecnologías de vanguardia en IA Generativa",
-          "Proyecto de generación infinita de personajes audiovisuales consistentes en estilo",
-          "Configuración de experimentos y análisis de resultados",
-          "Seminarios mensuales explicando nuevas tecnologías del estado del arte en Deep Learning e IA Generativa",
-          "Co-autoría en artículos de investigación académica para revistas de IA",
-          "Proyectos financiados por el Gobierno de Navarra",
+          "Seminarios sobre nuevas tecnologías del estado del arte en Deep Learning",
         ],
       },
       {
         role: "Desarrollador Full-Stack (Prácticas)",
         company: "Tracasa Instrumental S.L.",
         companylogo: require("../assets/images/TracasaLogo.png"),
-        date: "Septiembre 2021 – Diciembre 2021",
+        date: "Septiembre 2021 – Enero 2022",
         desc:
           "Prácticas curriculares como Desarrollador Full-Stack miembro de un equipo Scrum en el Departamento de Justicia",
         descBullets: [
-          "Desarrollo en el Sistema de Gestión Procesal AVANTIUS",
           "Desarrollo Full Stack (SQL, C#, AngularJS, Javascript, Bootstrap, CSS, etc.)",
-          "Uso de metodologías Scrum",
-          "Diseño de maquetas web para futuras funcionalidades",
-          "Preparación de informe de prácticas",
+          "Desarrolo de soluciones software para gestión procesal",
+          "Desarrollo de mock-ups de futuras funcionalidades con continuo feedback de cliente",
+          "Trabajo en un entorno de desarrollo Ágil, basado en Scrum",
         ],
       },
     ],
@@ -235,7 +245,7 @@ const es = {
               "https://www.unavarra.es/catedra-tracasa/semana-de-la-ia/ediciones-anteriores/2023/semana-ia-2023",
           },
           {
-            name: "Póster de Tesis",
+            name: "Póster",
             url: require("../assets/pdf/Poster TFG.pdf"),
           },
         ],
@@ -246,7 +256,7 @@ const es = {
           "Especialización en Deep Learning de Andrew Ng en Coursera. 5 cursos sobre Redes Neuronales, CNNs, RNNs, etc.",
         image: require("../assets/images/courseraLogo.png"),
         imageAlt: "Coursera Logo",
-        type: "certificación",
+        type: "certification",
         footerLink: [
           {
             name: "Certificación",
@@ -265,7 +275,7 @@ const es = {
           "Especialización en GANs de DeepLearning.AI en Coursera. 3 cursos sobre GANs, StyleGAN, etc.",
         image: require("../assets/images/courseraLogo.png"),
         imageAlt: "Coursera Logo",
-        type: "certificación",
+        type: "certification",
         footerLink: [
           {
             name: "Certificación",
@@ -276,6 +286,20 @@ const es = {
             name: "Curso",
             url:
               "https://www.coursera.org/specializations/generative-adversarial-networks-gans",
+          },
+        ],
+      },
+      {
+        title: "Certificación SAFe® 5 Practitioner",
+        subtitle:
+          "Certificación Scaled Agile Framework (SAFe) 5 Practitioner otorgada por Scaled Agile, Inc.",
+        image: require("../assets/images/safeLogo.png"),
+        imageAlt: "SAFe Logo",
+        type: "certification",
+        footerLink: [
+          {
+            name: "Certification",
+            url: "",
           },
         ],
       },
@@ -332,7 +356,7 @@ const es = {
     title: emoji("Contáctame 📬"),
     buttonText: "Contáctame",
     subtitle:
-      "Estoy abierto a nuevos desafíos y oportunidades. ¡No dudes en contactarme!",
+      "Continúo buscando nuevos desafíos y oportunidades. ¡No dudes en contactarme!",
     number: "+81-080-1360-8103",
     email_address: "adrian.maiza@gmail.com",
     display: true,
@@ -341,7 +365,7 @@ const es = {
   isHireable: true,
   footer: {
     display: true,
-    credit: emoji("Desarrollado con 💜 por Adrian Maiza"),
+    credit: emoji("Copyright © 2025. Created by Adrian Maiza"),
   },
 };
 

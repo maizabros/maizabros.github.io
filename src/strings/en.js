@@ -17,7 +17,7 @@ const en = {
     section: "Home",
     title: "Hello!",
     subTitle: emoji(
-      "My name is Adrian Maiza, a passionate Developer 💻 and AI Engineer 📊. Currenty advancing my Japanese language skills 📚  while looking for a full-time job 💼 here in Tokyo, Japan 🗾 "
+      "My name is Adrian Maiza, an AI and Machine Learning Engineer with over 2 years of research and development experience. Currently working at Computermind Corp. in Tokyo, focusing on academic research and AI technology development."
     ),
     resumeLink: require("../assets/pdf/Maiza_Adrian__CV.pdf"),
     display: true,
@@ -35,7 +35,7 @@ const en = {
     section: "Skills",
     title: "What can I do?",
     subTitle:
-      "I'm a very curious polyglot who is always looking for new challenges. From researching the state-of-the-art in Deep Learning to learning languages, here are some of my skills:",
+      "I'm an AI and Machine Learning Engineer with over 2 years of research and development experience. From researching state-of-the-art Deep Learning techniques to developing production AI systems, here are some of my skills:",
     skills: [
       emoji(
         "🔍 Research on novel techniques for Deep Learning and Generative AI"
@@ -48,7 +48,7 @@ const en = {
       emoji("🗣️ Give talks and presentations"),
       emoji("🔧 Advanced use of Linux and Windows"),
       emoji(
-        "🗺️ Native in Spanish, French and Basque, fluent in English and Advanced in Japanese"
+        "🗺️ Native in Spanish, French and Basque, fluent in English and Advanced in Japanese (~N2)"
       ),
     ],
     softwareSkills: [
@@ -115,35 +115,45 @@ const en = {
     title: emoji("Experience 💻💼"),
     experience: [
       {
-        role: "Reseach Assistant",
+        role: "AI and Software Engineer",
+        company: "Computermind Corp.",
+        companylogo: require("../assets/images/computermind_logo.jpg"), // You'll need to add this logo
+        date: "April 2025 - Present",
+        desc:
+          "Conducting academic research and developing new AI technologies for stakeholder projects",
+        descBullets: [
+          "Conduct academic research through comprehensive analysis of research papers",
+          "Develop new AI technologies for stakeholder projects using Python",
+          "Contribute to R&D initiatives in AI and machine learning solutions",
+        ],
+      },
+      {
+        role: "Research Assistant",
         company: "Public University of Navarra",
         companylogo: require("../assets/images/logo_navarrensis_red.png"),
         date: "October 2022 - December 2023",
         desc:
-          "Research on Generative AI and Deep Learning techniques for infinte style-consistent audiovisual character generation.",
+          "Research on Generative AI and Deep Learning techniques for infinite style-consistent audiovisual character generation",
         descBullets: [
-          "Colaboration between University and Business teams",
+          "Co-authored academic paper for IEEE WCCI 2024",
+          "Developed diffusion model techniques for style-consistent character generation",
+          "Participated in two government-funded research projects",
           "Research on state-of-the-art technologies regarding Generative AI",
-          "Infinite style-consistent audiovisual character generation project",
-          "Experiment setup and result analysis",
           "Monthly seminars explaining new technologies",
-          "Writting of academic research papers for AI journals",
-          "Government funded projects",
         ],
       },
       {
         role: "Full-Stack Developer (Intern)",
         company: "Tracasa Instrumental S.L.",
         companylogo: require("../assets/images/TracasaLogo.png"),
-        date: "September 2021 – December 2021",
+        date: "September 2021 – January 2022",
         desc:
           "Curricular Internship as Scrum member Full-Stack Developer on the Justice Department",
         descBullets: [
-          "Development of AVANTIUS Justice Process Management System",
           "Full Stack Development (SQL, C#, AngularJS, Javascript, Bootstrap, CSS, etc.)",
-          "Scrum methodologies practitioner",
-          "Design of web mock-ups for future features",
-          "Preparation of the internship report",
+          "Development on judicial procedure software solutions",
+          "Design of web mock-ups for future features with client feedback integration",
+          "Worked in Agile, Scrum-based development environment",
         ],
       },
     ],
@@ -235,7 +245,7 @@ const en = {
               "https://www.unavarra.es/catedra-tracasa/semana-de-la-ia/ediciones-anteriores/2023/semana-ia-2023",
           },
           {
-            name: "Thesis Poster",
+            name: "Poster",
             url: require("../assets/pdf/Poster TFG.pdf"),
           },
         ],
@@ -303,6 +313,7 @@ const en = {
     subtitle: emoji(
       "I love to create powerpoints and give talks about my work in AI and Deep Learning."
     ),
+    extra: "✱Spanish ver.",
 
     talks: [
       {
@@ -356,7 +367,7 @@ const en = {
 
   footer: {
     display: true,
-    credit: emoji("Designed and developed with 💜 by Adrian Maiza."),
+    credit: emoji("Copyright © 2025. Created by Adrian Maiza"),
   },
 };
 

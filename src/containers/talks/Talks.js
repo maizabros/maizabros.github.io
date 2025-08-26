@@ -27,6 +27,9 @@ export default function Talks() {
           >
             {talkSection[language].subtitle}
           </p>
+          {talkSection[language].extra ? (
+            <span>{talkSection[language].extra}</span>
+          ) : null}
           <div className="talk-cards-div">
             {talkSection[language].talks.map((talk, i) => {
               return (
